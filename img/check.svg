@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 34" width="34" height="34">
+	<title>pizda</title>
+	<defs>
+		<image  width="34" height="34" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAMAAAANmfvwAAAAAXNSR0IB2cksfwAAALdQTFRF////////8fHxo6OjcHBwlJSU5OTk////////6+vrgoKCd3d329vb+vr6hoaG7e3twMDAoaGhjY2NdHR0dnZ2vr6+rKys3d3d////wMDAo6OjpaWl39/fycnJcnJy8fHx0NDQ29vbeHh49vb2y8vLhISEqKioiIiI6Ojoy8vL////x8fHpaWl////////////sLCw/f39////////8fHxubm5lpaWgYGBk5OTrq6u5OTk////////T8UclgAAAD10Uk5TAAJB5//zwRMOsv//3YD/ttD5/////////////////////////////+P8Ze/miQaD/3sEa8f0+v////KBCFZFI48AAAD2SURBVHicjdQ9C8IwEAbge1vRolirbgUnUcTBwf8/+h/ERbeCCkVFW6sg9iOtTfPlbcc9kOQuCQhpkCrSWgIHeCkFUQdv9BFpRGpa8O5aQdTH6GYgA/QSAyG0TEJNPCDUE88G4awjmSBm5KQQRNZJRUpB9lFBKsEv1HWBQCpK0h0m5HwCmWAkE1QYQTAyifMkNaJgZGgXmWM9BMGIbz2LtPcQRLndyoiiOjRnOPFrXc3wotbdyjREfQDMNAU3o9wIgh+j376LojlpV/Ie/rnes4ORzPcGMcUiCvRkhiV2WrEAVgjjixL4I2xB6+wPunqSejjOSpsv/IA8QoaYdwYAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+</svg>

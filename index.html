@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class='workplace'>
+        <div class="workplace-form">
+            <div class="form-title">Конструктор визитки</div>
+            <label class="form-label">Наименование организации</label>
+            <div class="form-field">
+                <input type="text" class="form-control" name="org_name" value="OOO &quot;О'риентир&quot;">
+            </div>
+
+            <label class="form-label">Фаимилия. имя, отчество</label>
+            <div class="form-field">
+                <input type="text" class="form-control" name="fio_name" value="Федоров Иван Семенович">
+                <div class="selector">
+                    <label class="selector__item">
+                        <input type="radio" name="fio_text_align" value="left">
+                        <span class="selesctor__label">
+                            <img src="img/left.svg" alt="left"> 
+                        </span>
+                    </label>
+                    <label class="selector__item">
+                        <input type="radio" name="fio_text_align" value="center" checked>
+                        <span class="selesctor__label">
+                            <img src="img/center.svg" alt="center">
+                        </span>
+                    </label>
+                    <label class="selector__item">
+                        <input type="radio" name="fio_text_align" value="right">
+                        <span class="selesctor__label">
+                            <img src="img/right.svg" alt="right">
+                        </span>
+                    </label>
+                </div>
+                <div class="selector">
+                    <label class="selector__item"><input type="radio" name="fio_font_size" value="20px" checked><span class="selesctor__label">20px</span></label>
+                    <label class="selector__item"><input type="radio" name="fio_font_size" value="22px"><span class="selesctor__label">22px</span></label>
+                    <label class="selector__item"><input type="radio" name="fio_font_size" value="24px"><span class="selesctor__label">24px</span></label>
+                </div>
+            </div>
+
+
+            <div class="form-field">
+                <div class="color-selector">
+                    <label class="color-selector__item">
+                        <input type="radio" name="fio_color" value="#202020" checked>
+                        <span class="color-selector__label" style="background-color: #202020;"></span>
+                    </label>
+                    <label class="color-selector__item">
+                        <input type="radio" name="fio_color" value="#3F88E8">
+                        <span class="color-selector__label" style="background-color: #3F88E8;"></span>
+                    </label>
+                    <label class="color-selector__item">
+                        <input type="radio" name="fio_color" value="#E83F56">
+                        <span class="color-selector__label" style="background-color: #E83F56;"></span>
+                    </label>
+                    <label class="color-selector__item">
+                        <input type="radio" name="fio_color" value="#097A14">
+                        <span class="color-selector__label" style="background-color: #097A14;"></span>
+                    </label>
+                    <label class="color-selector__item">
+                        <input type="radio" name="fio_color" value="#DCA40A">
+                        <span class="color-selector__label" style="background-color: #DCA40A;"></span>
+                    </label>
+                    <label class="color-selector__item">
+                        <input type="radio" name="fio_color" value="#DC0AD5">
+                        <span class="color-selector__label" style="background-color: #DC0AD5;"></span>
+                    </label>
+                </div>
+            </div>
+
+
+            <label class="form-label">Должность</label>
+            <div class="form-field">
+                <input type="text" class="form-control" name="position" value="Менеджер по развитию">
+                <div class="selector">
+                    <label class="selector__item">
+                        <input type="radio" name="pos_text_align" value="left">
+                        <span class="selesctor__label">
+                            <img src="img/left.svg" alt="left"> 
+                        </span>
+                    </label>
+                    <label class="selector__item">
+                        <input type="radio" name="pos_text_align" value="center" checked>
+                        <span class="selesctor__label">
+                            <img src="img/center.svg" alt="center">
+                        </span>
+                    </label>
+                    <label class="selector__item">
+                        <input type="radio" name="pos_text_align" value="right">
+                        <span class="selesctor__label">
+                            <img src="img/right.svg" alt="right">
+                        </span>
+                    </label>
+                </div>
+                <div class="selector">
+                    <label class="selector__item"><input type="radio" name="position_font_size" value="16px" checked><span class="selesctor__label">16px</span></label>
+                    <label class="selector__item"><input type="radio" name="position_font_size" value="18px"><span class="selesctor__label">18px</span></label>
+                    <label class="selector__item"><input type="radio" name="position_font_size" value="20px"><span class="selesctor__label">20px</span></label>
+                </div>
+            </div>
+            <div class="form-field">
+                <div class="color-selector">
+                    <label class="color-selector__item">
+                        <input type="radio" name="position_color" value="#474747" checked>
+                        <span class="color-selector__label" style="background-color: #474747;"></span>
+                    </label>
+                    <label class="color-selector__item">
+                        <input type="radio" name="position_color" value="#202020">
+                        <span class="color-selector__label" style="background-color: #202020;"></span>
+                    </label>
+                    <label class="color-selector__item">
+                        <input type="radio" name="position_color" value="#636363">
+                        <span class="color-selector__label" style="background-color: #636363;"></span>
+                    </label>
+                    <label class="color-selector__item">
+                        <input type="radio" name="position_color" value="#9E9E9E">
+                        <span class="color-selector__label" style="background-color: #9E9E9E;"></span>
+                    </label>
+                    <label class="color-selector__item">
+                        <input type="radio" name="position_color" value="#BBBBBB">
+                        <span class="color-selector__label" style="background-color: #BBBBBB;"></span>
+                    </label>
+                    <label class="color-selector__item">
+                        <input type="radio" name="position_color" value="#E3E3E3">
+                        <span class="color-selector__label" style="background-color: #E3E3E3;"></span>
+                    </label>
+                </div>
+            </div>
+
+
+            <label class="form-label">Телефон</label>
+            <div class="form-field">
+                <input type="text" class="form-control" name="phone" value="8 (999) 123-45-67">
+            </div>
+            <div class="form-field">
+                <div class="add-phone" onclick="addPhoneField()">
+                    <img src="img/plus.svg" alt="Add Phone" class="checkbox-select__image"> Добавить еще один телефон
+                </div>
+            </div>
+
+            <label class="form-label">E-mail</label>
+            <div class="form-field">
+                <input type="text" class="form-control" name="email" value="fedorov.is@orientir.org">
+                <div class="checkbox-select">
+                    <input type="checkbox" class="checkbox-select__input" name="show_email">
+                    <label class="checkbox-select__label">Отображать</label>
+                </div>
+            </div>
+
+            <label class="form-label">Адрес</label>
+            <div class="form-field">
+                <input type="text" class="form-control" name="address" value="Иркутск, Байкальская, 421, оф. 12">
+                <div class="checkbox-select">
+                    <input type="checkbox" class="checkbox-select__input" name="show_address">
+                    <label class="checkbox-select__label">Отображать</label>
+                </div>
+            </div>
+
+            <div class="form__button">
+                <button type="button" onclick="drawPreview()">Применить</button>
+            </div>
+        </div>
+
+        <div class="workplace-result">
+            <div class="card-preview">
+                <div class="card-preview__org_name"></div>
+                <div class="card-preview__fio_name"></div>
+                <div class="card-preview__position"></div>
+                <div class="data">
+                    <div class="card-preview__phone"></div>
+                    <div class="card-preview__email"></div>
+                    <div class="card-preview__address"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
